@@ -6,3 +6,6 @@ class dog
     this_dogs_name
   end 
 end 
+lassie= dog.new 
+lassie.name=("lassie")
+lassie.name
