@@ -1,11 +1,11 @@
-class dog 
-  def name=(dog name)
-    this_is_name=dog name
+class Dog 
+  def name=(dog_name)
+    @this_is_name=dog name
   end 
   def name
-    this_dogs_name
+    @this_dogs_name
   end 
 end 
-lassie= dog.new 
+lassie= Dog.new 
 lassie.name=("lassie")
-lassie.name
+puts lassie.name
